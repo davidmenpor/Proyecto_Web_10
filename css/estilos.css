@@ -1,0 +1,9 @@
+#buttonreg_nav {
+    float: right;
+    margin-top: 15px;
+    margin-right: 20px;
+    /*text-decoration: none;
+    color: black;
+    border: 1px solid black;*/
+    padding: 3px;
+}
