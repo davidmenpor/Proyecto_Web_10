@@ -1,9 +1,61 @@
-#buttonreg_nav {
-    float: right;
-    margin-top: 15px;
-    margin-right: 20px;
-    /*text-decoration: none;
-    color: black;
-    border: 1px solid black;*/
-    padding: 3px;
+html{
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body{
+    background: url('fondo.jpg');
+
+}
+
+#nav_drawer{
+        width: 20%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left:0;
+        background: #f3df9ecc;
+}
+
+#nav_drawer #logo{
+    height: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+#nav_drawer #menu{
+    margin:auto;
+}
+
+#nav_drawer #menu .menu_item{
+    height: 10%;
+    background: #f1ebdacc;
+    width: 102%;
+    border: 1px solid cornsilk;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 10vh;
+    margin:5px;
+    margin-left: 0;
+    font-weight: bold;
+    font-size: 2vh;
+}
+
+#nav_drawer #menu .menu_item:hover{
+    background: #47e94fcc;
+    width: 102;
+    color:antiquewhite;
+}
+
+#nav_drawer #menu #buttonreg_nav{
+    background: cornsilk;
+    border: 1px solid #2be271cc;
+}
+
+#nav_drawer #menu #buttonreg_nav:hover{
+    background: rgb(59, 230, 44);
+    width: 102%;
+    color:rgb(5, 5, 5);
 }
