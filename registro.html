@@ -4,9 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel= "stylesheet" type="text/css" href="css/estilos.css">
     <title>Registro</title>
 </head>
 <body>
-    
+    <h1 align="center" style="color: azure;">Registrarte</h1>
+    <div id="formRegistro" >
+    <form>
+        <p class="campo">Nombre completo:</p> <input type="text" id="campoNombre" class="field">
+        <p class="campo">Correo electronico:</p> <input type="email" id="campoCorreo" class="field">
+        <p class="campo">Contraseña:</p> <input type="password" name="password" id="campoPassword" class="field">
+        <p class="campo">Confirmar contraseña:</p> <input type="password" id="campoPassword" class="field">
+        <p class="campo">Telefono movil:</p> <input type="tel" id="campoTelefono" class="field">
+        <p class="campo">Sexo:</p>
+        <p class="campo">
+        <input type="radio" name="hm" value="h" id="masculino">
+        <label for="masculino">Masculino</label>
+        <input type="radio" name="hm" value="m" id="femenino">
+        <label for="femenino">Femenino</label>
+        </p>
+        <p>
+          <input type="submit" class="btn btn-green" value="Registrarte">
+        </p>
+
+    </div>
+      </form>
+
 </body>
 </html>
