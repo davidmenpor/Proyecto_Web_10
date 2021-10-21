@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel= "stylesheet" type="text/css" href="css/estilos.css">
+    <script src="javascript\form4.js"></script>
     <title>Registro</title>
 </head>
 <body>
     <h1 align="center" style="color: azure;">Registrarte</h1>
     <div id="formRegistro" >
-    <form>
+    <form action="registrar.php" mathod="post" onsubmit="return validar_nombre();">
         <p class="campo">Nombre completo:</p> <input type="text" id="campoNombre" class="field">
         <p class="campo">Correo electronico:</p> <input type="email" id="campoCorreo" class="field">
         <p class="campo">Contraseña:</p> <input type="password" name="password" id="campoPassword" class="field">
